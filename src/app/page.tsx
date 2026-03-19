@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <h1>Next.js Video.js HLS Player</h1>
-      <HlsVideoPlayer src={m3u8Url} options={videoJsOptions} />
+      <HlsVideoPlayer src={m3u8Url} />
     </div>
   );
 };
